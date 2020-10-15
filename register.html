@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Run for Earth - Sign Up</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class = "registerPage">
+    <nav class="navbar regNav">
+        <ul>
+          <li><img class = "logo" src = "assets/logo.png"></li>
+          <li class="pushLeft"><a href="index.html" style="color: #0068ac;">HOME</a></li>
+          <li><a href="index.html">RUN INFORMATION</a></li>
+          <li><a href="">REGISTRATION</a></li>
+          <li class="pushRight"><a href="">CONTACT US</a></li>
+        </ul>
+      </nav>
+      <div id = "registerInfo">
+          <span class ="sectionTitle">SIGN UP</span>
+          <img src = "assets/section-divider.png">
+          <span class = "sectionInstruction">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at elementum velit. Nam consectetur consectetur ipsum nec porttitor. Cras velit enim, viverra ut quam nec, posuere lobortis quam. Phasellus tincidunt diam a sapien volutpat, at malesuada lacus mollis. Quisque lacinia nulla ac sem sollicitudin porta. Praesent dolor enim, feugiat id viverra ac, luctus nec risus. Nullam laoreet lobortis magna, nec posuere enim. </span>
+          <form id='registerForm' name="myForm" action="results.html" method="POST">
+            <input type="text" id="fName" name="fName" class="textInputRegular" placeholder="First Name" required minlength="2">
+            <input type="text" id="lName" name="lName" class="textInputRegular" placeholder="Last Name" required minlength="2">
+            <input type="text" id="addr1" name="addr1" class="textInputLong" placeholder="Complete Address" required>
+            <input type="text" id="addr2" name="addr2" class="textInputLong">
+            <input type="email" id="emailAdd" name="emailAdd" class="textInputLong" placeholder="Email Address" required>
+            <!-- <input type="date" id="bDay" name="bDay" class="textInputRegular" placeholder="Birthday" required> -->
+            <input type="text" id="bDay" name="bDay" class="textInputRegular"  onfocus="(this.type='date')" onblur="(this.type='text')"placeholder="Birthday" required>
+            <input type="number" id="contactNum" name="contactNum" class="textInputRegular" placeholder="Contact Number" >
+            <!-- <input type="text" id="emailAdd" name="emailAdd" class="textInputRegular" placeholder="Email Address" required> -->
+            <select name="gender" id="gender" required>
+              <option value="" disabled selected>Gender</option>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+            </select>
+            <img class="drop2" src = "assets/dropdown.png">
+            <select name="shirtSize" id="shirtSize" required>
+              <option value="" disabled selected>Shirt Size</option>
+              <option value="S">S</option>
+              <option value="M">M</option>
+              <option value="L">L</option>
+              <option value="XL">XL</option>
+            </select>
+            <!-- <input type="text" id="shirtSize" name="shirtSize" class="textInputShort" placeholder="Shirt Size"> -->
+            <img class="drop" src = "assets/dropdown.png">
+            <br>
+            <div class="otherItems">
+            <p class="addMore">Add more participants</p>
+            <input type="checkbox" required id="TandC" name="termsAndcond" value="check"><a class="termsAndcond" href="">I have read and understand the Terms and Conditions</a><br>
+            </div>
+            <button id="submitform" type="submit" onclick="addData();">Submit</button>
+          </form>
+          <div id="error"></div>
+      </div>
+      <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

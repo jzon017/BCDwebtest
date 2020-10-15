@@ -1,0 +1,401 @@
+html{
+    
+    background-image: url("assets/background.png");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    
+}
+
+body {
+    line-height: 1;
+    padding-bottom: 200px;
+    
+}
+
+body.registerPage {
+    background-color: #0068ac;
+    background-size: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+body, button, .navbar, input, span, p, .btn{
+    font-family: 'Droid Sans', 'Arial', 'sans-serif';
+}
+
+
+#info {
+    position: fixed;
+    margin: auto;
+    margin-top: 175px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 800px;
+    height: 500px;
+    text-align: center;
+}
+
+#registerInfo {
+    position: fixed;
+    margin: auto;
+    margin-top: 175px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 800px;
+    height: auto;
+    text-align: center;
+    color: white;
+}
+
+#congrats {
+    position: fixed;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 80%;
+    height: auto;
+    text-align: center;
+}
+
+img {
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.regFee, .campaignDesc {
+    display: block;
+    font-size: 15px;
+    color: #414042;
+}
+
+.eventDetails {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 0;
+    color: #414042;
+}
+
+.sectionInstruction {
+    display: block;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.sectionTitle {
+    display: block;
+    font-size: 30px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+span {
+    display: block;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.btn {
+    text-align: center;
+}
+
+.button {
+    
+    font-size: 14px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    
+}
+
+.registerBtn {
+    font-size: 14px;
+    font-weight: bold;
+    background-color: white;
+    border-color: #39b54a;
+    color: #0068ac;
+    border-style: solid;
+}
+
+.registerBtn:hover {
+    font-size: 14px;
+    color: #0e76bc;
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+
+#submitform {
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #39b54a;
+    border-color: #39b54a;
+    color: white;
+    border-style: solid;
+    margin-top: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#submitform:hover {
+    font-size: 14px;
+    color: #0e76bc;
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+
+.backBtn {
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #39b54a;
+    border-color: #39b54a;
+    color: white;
+    border-style: solid;
+    margin-top: 200px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.backBtn:hover {
+    font-size: 14px;
+    color: #0e76bc;
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+
+.navbar {
+    width: 100%;
+    position: fixed;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin: 0;
+    font-size: 14px;
+}
+
+.frontNav {
+    background-color: transparent;
+    margin-top: -8px;
+    margin-left: -8px;
+}
+
+.regNav {
+    background-color : rgba(255, 255, 255, 0.5);
+}
+
+.logo {
+    margin-right: 100px;
+    margin-top: 0;
+    margin-left: 100px;
+    /* display: inline-block; */
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.pushLeft {
+    margin-left: 300px;
+}
+
+.pushRight {
+    margin-right: 100px;
+} 
+
+ul {
+    padding: 0;
+    /* display: inline-block; */
+    display: flex;
+    justify-content: space-around;
+    white-space: nowrap;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+nav li {
+    vertical-align: middle;
+    padding: 20px;
+    list-style: none;
+    display: inline-block;
+    box-sizing:border-box
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+input, select {
+    color: #0068ac;
+    font-weight: bold;
+}
+.textInputRegular {
+    white-space: initial;
+    display: inline-block;
+    width: 350px;
+    height: 38.5px;
+    padding: 0;
+    border: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+}
+.textInputLong {
+    display: inline-block;
+    width: 705px;
+    height: 38.5px;
+    padding: 0;
+    border: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+}
+
+.textInputShort {
+    display: inline-block;
+    width: 305px;
+    height: 38.5px;
+    padding: 0;
+    border: 0;
+    margin-left: 1px;
+    margin-right: 0;
+    margin-bottom: 20px;
+}
+
+#shirtSize {
+    display: inline-block;
+    position: relative;
+    width: 350px;
+    height: 39px;
+    padding: 0;
+    border: 0;
+    margin-left: 1px;
+    margin-right: 0;
+    margin-bottom: 20px;
+}
+
+#gender {
+    display: inline-block;
+    position: relative;
+    width: 350px;
+    height: 39px;
+    padding: 0;
+    border: 0;
+    margin-left: 1px;
+    margin-right: 0;
+    margin-bottom: 20px;
+}
+
+/* .otherItems {
+    display: inline-block;
+} */
+
+.addMore{
+    display:inline-block;
+    vertical-align: middle;
+}
+
+#TandC {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 200px;
+}
+
+.termsAndcond {
+    color: white;
+    vertical-align: middle;
+    font-size: 11px;
+    display: inline-block;
+}
+
+#error {
+    padding: 10px;
+    margin: 10px;
+    color: red;
+}
+
+.drop {
+    position: absolute;
+    margin-left: -42px;
+    pointer-events: none;
+}
+
+.drop2 {
+    position: absolute;
+    margin-left: -45px;
+    pointer-events: none;
+}
+
+#submitform {
+    float: right;
+    margin-right: 45px;
+}
+h1 {
+    padding: 50px;
+    padding-left: 0px;
+    text-align: left;
+    color: #414042;
+    font-size: 50px;
+}
+
+#congrats > p {
+    text-align: left;
+}
+
+#congrats > span {
+    text-align: left;
+    display: inline-block;
+    margin-right: 0;
+}
+
+
+#regDateResult {
+    margin-left: 10px;
+}
+
+
+.head1 {
+    /* margin-left: -175px; */
+    float: left;
+}
+
+.head2 {
+    margin-left: 300px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+/*
+0068ac blue hex
+39b54a green hex
+*/
